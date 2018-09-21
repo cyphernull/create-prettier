@@ -1,6 +1,4 @@
 const inquirer = require("inquirer")
-const colors = require("colors")
-const pad = require("pad")
 
 const questions = [
   {
