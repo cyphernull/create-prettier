@@ -2,7 +2,7 @@
 const program = require("commander")
 const { write } = require("node-yaml")
 const begin = require("./begin")
-program.version("0.0.1", "-v, --version").parse(process.argv)
+program.version("1.0.5", "-v, --version").parse(process.argv)
 
 begin().then(data => {
   const path = process.cwd()
