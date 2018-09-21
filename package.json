@@ -1,12 +1,18 @@
 {
   "name": "create-prettier",
-  "version": "1.0.1",
-  "description": "aaaaa",
-  "main": "index.js",
-  "repository": "adsasda",
-  "author": "eric",
+  "version": "1.0.2",
+  "description": "a command line tool for creating prettier config without headache",
+  "repository": "https://github.com/Voyager-One/create-prettier",
+  "author": "Voyager-One",
   "license": "MIT",
+  "main": "./bin/index.js",
   "private": false,
+  "keywords": [
+    "prettier",
+    "prettierrc",
+    "format",
+    "tool"
+  ],
   "bin": {
     "create-prettier": "./bin/index.js"
   },
