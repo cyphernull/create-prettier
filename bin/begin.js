@@ -21,6 +21,12 @@ const questions = [
   },
   {
     type: "confirm",
+    name: "useTabs",
+    message: "Use Tabs | Default: false ?",
+    default: false,
+  },
+  {
+    type: "confirm",
     name: "semi",
     message: "Semicolons | Default: true ?",
     default: true,
@@ -58,7 +64,6 @@ const questions = [
 ]
 
 function begin() {
-  console.log("begin")
   return new Promise((res, rej) => {
     inquirer.prompt(questions).then(function(answers) {
       res(answers)

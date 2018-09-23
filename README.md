@@ -16,4 +16,16 @@ create-prettier
 
 **then just follow the guide**
 
+#### Supported Basic Options
+
+- printWidth
+- useTabs
+- tabWidth
+- semi
+- singleQuote
+- trailingComma
+- bracketSpacing
+- jsxBracketSameLine
+- arrowParens
+
 #### Enjoy 😀
