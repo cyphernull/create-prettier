@@ -1,6 +1,6 @@
 {
   "name": "create-prettier",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "a command line tool for creating prettier config without headache",
   "repository": "https://github.com/Voyager-One/create-prettier",
   "author": "Voyager-One",
@@ -17,8 +17,9 @@
     "create-prettier": "./bin/index.js"
   },
   "dependencies": {
-    "commander": "^2.18.0",
-    "inquirer": "^6.2.0",
-    "node-yaml": "^3.1.1"
+    "commander": "^12.1.0",
+    "inquirer": "^9.2.22",
+    "js-yaml": "^4.1.0",
+    "node-yaml": "^4.0.1"
   }
 }
